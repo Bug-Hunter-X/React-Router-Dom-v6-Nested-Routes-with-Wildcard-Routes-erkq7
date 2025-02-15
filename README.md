@@ -1,0 +1,3 @@
+# React Router Dom v6 Nested Routes with Wildcard Routes
+
+This repository demonstrates a subtle bug in React Router Dom v6 related to nested routes and wildcard routes.  When a parent route contains a wildcard route (`/*`), it can unexpectedly match routes intended for nested routes, even when those nested routes have explicit paths. This issue can cause unexpected behavior where pages do not render correctly or the wrong component is displayed.  The `bug.js` file reproduces the error and `bugSolution.js` demonstrates a solution for this problem. 
